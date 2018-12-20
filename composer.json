@@ -12,5 +12,20 @@
             "email": "18612192370@163.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Lgy\\RPush\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lgy\\RPush\\RPushServiceProvider"
+            ],
+            "aliases": {
+                "RPush": "Lgy\\RPush\\RPushFacade"
+            }
+        }
+    }
 }
