@@ -1,0 +1,16 @@
+{
+    "name": "lgy/rpush",
+    "description": "rpush",
+    "type": "library",
+    "require": {
+        "jpush/jpush": "^3.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lgy",
+            "email": "18612192370@163.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
